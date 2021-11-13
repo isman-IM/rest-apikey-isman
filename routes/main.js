@@ -7,16 +7,8 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/views/home.html')
 })
 
-router.get('/st2', (req, res) => {
-    res.sendFile(__path + '/style.css')
-})
-
 router.get('/api', (req, res) => {
     res.sendFile(__path + '/views/index.html')
-})
-
-router.get('/prof', (req, res) => {
-    res.sendFile(__path + '/index.html')
 })
 
 router.get('/apis', (req, res) => {
